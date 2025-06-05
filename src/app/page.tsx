@@ -122,7 +122,7 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4, duration: 0.5 }}
             >
-              The best shitpost community in Republic of Kazakhstan
+              The best shitpost community in Kazakhstan
             </motion.p>
 
             {/* Декоративная линия */}
