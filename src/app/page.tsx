@@ -112,7 +112,7 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2, duration: 0.5 }}
             >
-              Добро пожаловать в <span className="text-red-500">GX+</span>
+              Welcome to <span className="text-red-500">GX+</span>
             </motion.h1>
 
             {/* Подзаголовок */}
@@ -122,7 +122,7 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4, duration: 0.5 }}
             >
-              Better shitpost community in Kazakhstan
+              The best shitpost community in Republic of Kazakhstan
             </motion.p>
 
             {/* Декоративная линия */}
@@ -141,12 +141,14 @@ export default function Home() {
                 transition={{ delay: 0.8, duration: 0.6 }}
             >
               <p className="mb-4">
-                Мы сделали для вас сразу четыре тарифа подписки, чтобы вы о нас не забывали и исправно отчисляли деньги в наш бюджет для того, чтобы наши разработчики и дизайнеры
-                могли и дальше кутить на Мальдивах за ваш счёт, гои :3
+                We have made four subscription plans for you at once, so that you do not forget about us and regularly
+                contribute money to our budget so that our developers and UI designers can continue to carouse in the Maldives
+                at your expense, goys :3
               </p>
               <p>
-                Четвертый тариф для тех, кто хочет быть счастливым, но не знает как. Мы поможем вам стать счастливым, потому что мы знаем, какой ценой достигается истинное
-                счастье. А цена этого счастья — это ваши деньги, которые вы нам отчисляете каждый месяц.
+                The fourth subscription plan is for those who want to be happy but don't know how.
+              We will help you become happy, because we know the price of TRUE happiness. And the price of this happiness
+              is your money, which you con you contribute to us every month.
               </p>
             </motion.div>
 
@@ -163,7 +165,7 @@ export default function Home() {
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                 >
-                  Тарифище «Бедный маленький гой»
+                  «Poor little goy»
                 </motion.button>
               </Link>
 
@@ -173,7 +175,7 @@ export default function Home() {
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                 >
-                  Тарифище «Коммерсант»
+                  «Commercant»
                 </motion.button>
               </Link>
 
@@ -183,7 +185,7 @@ export default function Home() {
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                 >
-                  Тарифище «Блестящая хуцпа»
+                  «Brilliant hutzpa»
                 </motion.button>
               </Link>
 
@@ -193,7 +195,7 @@ export default function Home() {
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                 >
-                  Тарифище «Быть счастливым»
+                  «Be happy»
                 </motion.button>
               </Link>
             </motion.div>
@@ -205,9 +207,9 @@ export default function Home() {
                 animate={{ opacity: 0.7 }}
                 transition={{ delay: 1.5, duration: 0.8 }}
             >
-              *Нажимая кнопки, вы соглашаетесь с тем, что мы заберём ваши данные, деньги и достоинство. Это нам гарантирует Трудовой кодекс Республики Казахстан, и чёрт
-              знает какие ещё там законы и кодексы, потому что мы их не соблюдаем, это законы гоев.
-              Но мы не будем вас судить, если вы всё-таки нажмёте на эти кнопки, потому что мы понимаем, что вы просто гой.
+              Clicking the buttons, you and your debit (or credit) card they we will collect your data, money and dignity.
+             This is guaranteed to us by the Labor Code of the Republic of Kazakhstan, and the devil knows what other laws and codes the are, because we do not comply with them, these are the laws of the goyim* (in english: goys).
+             But we won't judge you if you do push these buttons, because we understand that you're just a GOY.
             </motion.p>
           </main>
         </motion.div>
