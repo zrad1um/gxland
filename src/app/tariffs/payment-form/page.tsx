@@ -273,7 +273,7 @@ export default function PaymentForm() {
             </div>
 
             {/* Кнопка оплаты */}
-          <Link href="/tariffs/thanksto" passHref className="w-full sm:w-auto flex-1 min-w-[200px]"/>
+          <Link href="/tariffs/thanksto" passHref className="w-full sm:w-auto flex-1 min-w-[200px]">
             <motion.button
               type="submit"
               className="w-full px-6 py-3 bg-gradient-to-r from-red-600 to-rose-500 text-white font-bold rounded-lg shadow-lg hover:opacity-90 transition-opacity"
@@ -282,6 +282,7 @@ export default function PaymentForm() {
             >
               Pay now
             </motion.button>
+          </Link>
 
             <p className="text-xs text-white mt-4 text-center">
               By clicking the button, you agree that we have the right to charge any amount from your card at any time without notice.
