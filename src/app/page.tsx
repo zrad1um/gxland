@@ -135,7 +135,7 @@ export default function Home() {
 
             {/* Описание тарифов */}
             <motion.div
-                className="text-white-100 text-shadow-gray-400 mt-4"
+                className="text-white-100 dark:text-white-100 text-shadow-gray-400 mt-4"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.8, duration: 0.6 }}
@@ -200,7 +200,7 @@ export default function Home() {
 
             {/* Дополнительный текст */}
             <motion.p
-                className="text-white text-shadow-gray-400 mt-6 text-sm max-w-md"
+                className="text-white dark:text-white text-shadow-gray-400 mt-6 text-sm max-w-md"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 0.7 }}
                 transition={{ delay: 1.5, duration: 0.8 }}
